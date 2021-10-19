@@ -1,0 +1,360 @@
+id: 584783d22e2e819acd46c1
+created: 2021-10-19T20:17:43.911Z
+projectId: y_UJQ98PbEKPIMsijiqxpw
+projectName: Staging fortesza
+owner: Gabriela Bracamonte
+protocol: 1
+tests:
+  - id: de80907bd031258724a02e
+    name: Stanging fortesza
+    description: Test Stanging fortesza website
+    platform: Web
+    type: Web
+    driverType: Chrome
+    version: "0.1"
+    creationDate: 2021-10-19T20:17:43.911Z
+    modificationDate: 2021-10-19T21:05:04.350Z
+    settings:
+      appId: -sqbBy0lsk2a2aPJ6Gi7kA
+      automationAssistant: true
+      stepSleepTime: 500
+      stepTimeout: 15000
+      stepSleepTiming: Before
+      stepFailureBehaviorType: Abort
+      stepTakeScreenshotConditionType: Failure
+    application:
+      id: -sqbBy0lsk2a2aPJ6Gi7kA
+      name: Staging Fortesza
+      url: https://staging.fortesza.com/register
+      platform: Web
+    steps:
+      - id: 5e4f31556d46c02fae9eeb
+        comments: Navigates the specified URL (Auto-generated)
+        enabled: true
+        invertResult: false
+        order: 1
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+        parameterMaps:
+          - direction: Input
+            name: url
+            value: "{{ApplicationURL}}"
+        conditions: []
+        validations: []
+        contexts: []
+      - id: e8c7f0f88297d49e4e0ea2
+        comments: ""
+        enabled: true
+        order: 2
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 5c6d1cc0b1b12a1b255d8b
+      - id: b223b554b73f93dec2e3d9
+        comments: ""
+        enabled: true
+        order: 3
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: qatestfortesza@yopmail.com
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 5c6d1cc0b1b12a1b255d8b
+      - id: 30913e5c544e126becc985
+        comments: ""
+        enabled: true
+        order: 4
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: 1Asdfghj..
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 58fe6a5a4f87e7ab5102ae
+      - id: 6b33997c4b24137da841c5
+        comments: ""
+        enabled: true
+        order: 5
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 91ca52524bc2586d9ee34e
+      - id: d5f3a54eeb3ad3a1030f7a
+        comments: ""
+        enabled: true
+        order: 6
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 58fe6a5a4f87e7ab5102ae
+      - id: b1628124f7fccd355f7cb0
+        comments: ""
+        enabled: true
+        order: 7
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: A1sdfghj..
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 58fe6a5a4f87e7ab5102ae
+      - id: 8c91f4b743b130938b568a
+        comments: ""
+        enabled: true
+        order: 8
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 06e1d75c51af781086d0d9
+      - id: fef7b137712813764e5d23
+        comments: ""
+        enabled: true
+        order: 9
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: d7c06c3e518aac1a34e9c5
+      - id: c290de1e07ba98f3dc5006
+        comments: ""
+        enabled: true
+        order: 10
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 36fb581371196e13bcc71d
+    parameters:
+      - name: ApplicationURL
+        description: Auto generated application URL parameter
+        value: https://staging.fortesza.com/register
+        type: Input
+    tags: []
+auxTests: []
+elements:
+  - id: 36fb581371196e13bcc71d
+    name: Crear cuenta1
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDc
+      name: Button
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "#btn-register-user"
+        priority: 0
+      - name: XPATH
+        value: //button[. = ' Crear cuenta ']
+        priority: 1
+      - name: XPATH
+        value: //div[2]/button
+        priority: 2
+      - name: XPATH
+        value: /html/body/app-root/app-register/div[3]/mat-card/mat-card-content/form/div[2]/button
+        priority: 3
+  - id: d7c06c3e518aac1a34e9c5
+    name: DIV
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjM
+      name: Div
+      source: System
+    locators:
+      - name: XPATH
+        value: //label/div
+        priority: 0
+      - name: XPATH
+        value: /html/body/app-root/app-register/div[3]/mat-card/mat-card-content/form/div[1]/mat-checkbox/label/div
+        priority: 1
+  - id: 06e1d75c51af781086d0d9
+    name: Crear cuenta
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjU
+      name: span
+      source: System
+    locators:
+      - name: XPATH
+        value: //span[. = ' Crear cuenta ']
+        priority: 0
+      - name: XPATH
+        value: //button/span[1]
+        priority: 1
+      - name: XPATH
+        value: /html/body/app-root/app-register/div[3]/mat-card/mat-card-content/form/div[2]/button/span[1]
+        priority: 2
+  - id: 91ca52524bc2586d9ee34e
+    name: visibility_off
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDM
+      name: Generic Web Element
+      source: System
+    locators:
+      - name: XPATH
+        value: //mat-icon[. = 'visibility_off ']
+        priority: 0
+      - name: XPATH
+        value: //mat-form-field[2]//mat-icon
+        priority: 1
+      - name: XPATH
+        value: /html/body/app-root/app-register/div[3]/mat-card/mat-card-content/form/mat-form-field[2]/div/div[1]/div[4]/mat-icon
+        priority: 2
+  - id: 58fe6a5a4f87e7ab5102ae
+    name: Ingrese su contraseña
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDY
+      name: Textbox
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "#input-password-register"
+        priority: 0
+      - name: XPATH
+        value: //input[@placeholder = 'Ingrese su contraseña']
+        priority: 1
+      - name: XPATH
+        value: //mat-form-field[2]//input
+        priority: 2
+      - name: XPATH
+        value: /html/body/app-root/app-register/div[3]/mat-card/mat-card-content/form/mat-form-field[2]/div/div[1]/div[3]/input
+        priority: 3
+  - id: 5c6d1cc0b1b12a1b255d8b
+    name: Ingrese su correo
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDY
+      name: Textbox
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "#input-email-register"
+        priority: 0
+      - name: XPATH
+        value: //input[@placeholder = 'Ingrese su correo']
+        priority: 1
+      - name: XPATH
+        value: //mat-form-field[1]//input
+        priority: 2
+      - name: XPATH
+        value: /html/body/app-root/app-register/div[3]/mat-card/mat-card-content/form/mat-form-field[1]/div/div[1]/div[3]/input
+        priority: 3
+projectParameters: []
+addons: []
