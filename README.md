@@ -22,4 +22,4 @@ pip install -r requirements.txt
 
 2.- Ejecute archivo Stanging_fortesza_2021-10-19_21_05_04.yaml del proyecto
 
-3.- Esperar que finalice la prueba
+3.- Esperar que la prueba finalice 
